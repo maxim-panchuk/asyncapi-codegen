@@ -46,6 +46,24 @@ const (
 	MessageTypeIsPayload MessageType = "payload"
 )
 
+//"x-meta" : {
+//	"command-reply" : {
+//		"object" : "SecuritiesDealParams",
+//		"operationId" : "qfmdpCreateSecuritiesDealParams",
+//		"type" : "command"
+//	}
+//}
+
+type CommandReply struct {
+	Object      string `json:"object"`
+	OperationId string `json:"operationId"`
+	Type        string `json:"type"`
+}
+
+type XMeta struct {
+	CommandReply CommandReply `json:"command-reply"`
+}
+
 // Message is a representation of the corresponding asyncapi object filled
 // from an asyncapi specification that will be used to generate code.
 // Source: https://www.asyncapi.com/docs/reference/specification/v2.6.0#messageObject
@@ -65,6 +83,9 @@ type Message struct {
 	// According to: https://www.asyncapi.com/docs/reference/specification/v2.6.0#correlationIDObject
 	CorrelationIDLocation string `json:"-"`
 	CorrelationIDRequired bool   `json:"-"`
+
+	// Exts
+	XMeta XMeta `json:"x-meta"`
 }
 
 // Process processes the Message to make it ready for code generation.
