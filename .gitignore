@@ -17,3 +17,7 @@
 # Testing
 tmp/
 __debug_bin
+
+qarch_asyncApi_qfmdpfinancialmarketdeal_ver_68.json
+.gitignore
+.idea

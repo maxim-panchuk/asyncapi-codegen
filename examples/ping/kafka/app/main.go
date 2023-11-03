@@ -8,9 +8,9 @@ import (
 	"os/signal"
 	"time"
 
-	"github.com/lerenn/asyncapi-codegen/pkg/extensions/brokers/kafka"
-	"github.com/lerenn/asyncapi-codegen/pkg/extensions/loggers"
-	"github.com/lerenn/asyncapi-codegen/pkg/extensions/middlewares"
+	"github.com/maxim-panchuk/asyncapi-codegen/pkg/extensions/brokers/kafka"
+	"github.com/maxim-panchuk/asyncapi-codegen/pkg/extensions/loggers"
+	"github.com/maxim-panchuk/asyncapi-codegen/pkg/extensions/middlewares"
 )
 
 type Subscriber struct {

@@ -5,8 +5,8 @@ import (
 	"os"
 	"runtime/debug"
 
-	"github.com/lerenn/asyncapi-codegen/pkg/asyncapi"
-	"github.com/lerenn/asyncapi-codegen/pkg/codegen/generators"
+	"github.com/maxim-panchuk/asyncapi-codegen/pkg/asyncapi"
+	"github.com/maxim-panchuk/asyncapi-codegen/pkg/codegen/generators"
 	"golang.org/x/tools/imports"
 )
 

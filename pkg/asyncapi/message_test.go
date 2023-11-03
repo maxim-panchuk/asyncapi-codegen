@@ -3,7 +3,7 @@ package asyncapi
 import (
 	"testing"
 
-	"github.com/lerenn/asyncapi-codegen/pkg/utils"
+	"github.com/maxim-panchuk/asyncapi-codegen/pkg/utils"
 	"github.com/stretchr/testify/suite"
 )
 

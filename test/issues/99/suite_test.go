@@ -7,9 +7,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/lerenn/asyncapi-codegen/pkg/extensions"
-	"github.com/lerenn/asyncapi-codegen/pkg/extensions/middlewares"
-	asyncapi_test "github.com/lerenn/asyncapi-codegen/test"
+	"github.com/maxim-panchuk/asyncapi-codegen/pkg/extensions"
+	"github.com/maxim-panchuk/asyncapi-codegen/pkg/extensions/middlewares"
+	asyncapi_test "github.com/maxim-panchuk/asyncapi-codegen/test"
 	"github.com/stretchr/testify/suite"
 )
 

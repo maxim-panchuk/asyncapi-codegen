@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/lerenn/asyncapi-codegen/pkg/extensions"
+	"github.com/maxim-panchuk/asyncapi-codegen/pkg/extensions"
 
 	"github.com/google/uuid"
 )
