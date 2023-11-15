@@ -26,6 +26,9 @@ type Schema struct {
 
 	// Embedded extended fields
 	Extensions
+
+	// Exts
+	XMeta XMeta `json:"x-meta"`
 }
 
 // NewSchema creates a new Schema structure with initialized fields.
