@@ -29,6 +29,7 @@ type Schema struct {
 
 	// Exts
 	XMeta XMeta `json:"x-meta"`
+	XDb   XDb   `json:"x-db"`
 }
 
 // NewSchema creates a new Schema structure with initialized fields.

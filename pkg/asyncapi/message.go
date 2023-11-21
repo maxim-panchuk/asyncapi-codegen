@@ -64,6 +64,15 @@ type XMeta struct {
 	CommandReply CommandReply `json:"command-reply"`
 }
 
+type Column struct {
+	Name             string `json:"name"`
+	ColumnDefinition string `json:"columnDefinition"`
+}
+
+type XDb struct {
+	Column Column `json:"column"`
+}
+
 // Message is a representation of the corresponding asyncapi object filled
 // from an asyncapi specification that will be used to generate code.
 // Source: https://www.asyncapi.com/docs/reference/specification/v2.6.0#messageObject
