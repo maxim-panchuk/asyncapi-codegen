@@ -69,8 +69,13 @@ type Column struct {
 	ColumnDefinition string `json:"columnDefinition"`
 }
 
+type Table struct {
+	Name string `json:"name"`
+}
+
 type XDb struct {
 	Column Column `json:"column"`
+	Table  Table  `json:"table"`
 }
 
 // Message is a representation of the corresponding asyncapi object filled
